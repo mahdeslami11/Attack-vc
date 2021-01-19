@@ -15,25 +15,25 @@ The files are from the official implementation of AdaIN-VC, but the config file 
 
 You can perform adversarial attack on AdaIN-VC with `attack.py`.
 
-```
-python attack.py model_dir vc_tgt adv_tgt output [--vc_src] [--eps] [--n_iters] [--attack_type]
+```bash
+python attack.py <model_dir> <vc_tgt> <adv_tgt> <output> [--vc_src source] [--eps epsilon] [--n_iters iterations] [--attack_type type]
 ```
 
 - **model_dir**: The directory of model files.
 - **vc_tgt**: The target utterance to be defended, providing vocal timbre in voice conversion.
 - **adv_tgt**: The target used in adversarial attack (**y** in the paper).
 - **output**: The output defended utterance.
-- **--vc_src**: The source utterance providing linguistic content in voice conversion (required in end-to-end and feedback attack).
-- **--eps**: The maximum amplitude of the perturbation.
-- **--n_iters**: The number of iterations for updating the perturbation.
-- **--attack_type**: The type of adversarial attack to use (end-to-end, embedding, or feedback attack).
+- **source**: The source utterance providing linguistic content in voice conversion (required in end-to-end and feedback attack).
+- **epsilon**: The maximum amplitude of the perturbation.
+- **iterations**: The number of iterations for updating the perturbation.
+- **type**: The type of adversarial attack to use (end-to-end, embedding, or feedback attack).
 
 ## Inference
 
 You can perform voice conversion with `inference.py`.
 
-```
-python inference.py model_dir source target output
+```bash
+python inference.py <model_dir> <source> <target> <output>
 ```
 
 - **model_dir**: The directory of model files.
@@ -45,7 +45,7 @@ python inference.py model_dir source target output
 
 Please cite our paper if you find it useful.
 
-```
+```bib
 @article{huang2020defending,
   title={Defending Your Voice: Adversarial Attack on Voice Conversion},
   author={Huang, Chien-yu and Lin, Yist Y and Lee, Hung-yi and Lee, Lin-shan},
