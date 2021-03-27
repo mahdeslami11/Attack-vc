@@ -46,10 +46,13 @@ python inference.py <model_dir> <source> <target> <output>
 Please cite our paper if you find it useful.
 
 ```bib
-@article{huang2020defending,
+@INPROCEEDINGS{9383529,
+  author={C. -y. {Huang} and Y. Y. {Lin} and H. -y. {Lee} and L. -s. {Lee}},
+  booktitle={2021 IEEE Spoken Language Technology Workshop (SLT)},
   title={Defending Your Voice: Adversarial Attack on Voice Conversion},
-  author={Huang, Chien-yu and Lin, Yist Y and Lee, Hung-yi and Lee, Lin-shan},
-  journal={arXiv preprint arXiv:2005.08781},
-  year={2020}
-}
+  year={2021},
+  volume={},
+  number={},
+  pages={552-559},
+  doi={10.1109/SLT48900.2021.9383529}}
 ```
