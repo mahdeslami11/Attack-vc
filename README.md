@@ -57,9 +57,16 @@ Please cite our paper if you find it useful.
   doi={10.1109/SLT48900.2021.9383529}}
 ```
 
+##Sections annexed by mohadese shabani 
 
-
-1.A summary of the purpose as well as the function of the code
+1. A summary of the purpose as well as the function of the code
 
 In this project we are trying to report the hostile attack on audio conversion. At first, subtle human disturbances are added to the sentences that the speaker defends, then with three different approaches, end-to-end attack, embedded sentence and feedback attack, which are proposed in this project, so that the characteristics of the speaker of the sentences become very different from the speaker. It is reported that they have been defended.Regarding the function of the code, we can say that using the attack.py file codes, we apply a hostile attack on the sound, and then use the inference.py file codes to perform audio conversion.
+
+
+2. Explanation of innovation in code improvement
+
+
+
+
 
