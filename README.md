@@ -231,7 +231,7 @@ def discriminator_model(optimizer, loss, metrics, num_sample):
     
  6. Student introduction
     
-   I am mohadese shabani,a master's student in bioelectrical medical engineering at South Tehran University
+   I am Mohadese Shabani, a 3rd semester student of Bioelectrical Medical Engineering, South Tehran University.
 
 Student number: 40014140111028
 
@@ -260,6 +260,10 @@ https://drive.google.com/file/d/1hp58LY-U0Ifqk0TCl6Lg8SPKd_PeFbia/view?usp=shari
 full description of the source codes of the project:
 
 https://drive.google.com/file/d/1va5W_GpgKU1rCI9e529VcHD1-NbrB3jU/view?usp=share_link
+
+9. Completed proposal file for the project
+
+https://drive.google.com/file/d/13WzaFodc-TJmVBN950fuLhWpLwYn_C6S/view?usp=share_link
 
 
 
