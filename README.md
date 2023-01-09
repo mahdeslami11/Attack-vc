@@ -187,7 +187,7 @@ def discriminator_model(optimizer, loss, metrics, num_sample):
 
 if name == 'main':
 
-   ## change detail here
+ #change detail here
    
     optimizer = tf.keras.optimizers.Adam()
     
@@ -203,7 +203,7 @@ if name == 'main':
     
     #note = 'FC'
 
-   ## change detail here
+   #change detail here
 
     model, num_layer = discriminator_model(optimizer, loss, metrics, num_sample)
     
