@@ -57,7 +57,7 @@ Please cite our paper if you find it useful.
   doi={10.1109/SLT48900.2021.9383529}}
 ```
 
-##Sections annexed by mohadese shabani 
+## Sections annexed by mohadese shabani 
 
 1. A summary of the purpose as well as the function of the code
 
@@ -181,11 +181,11 @@ def discriminator_model(optimizer, loss, metrics, num_sample):
         
         )
    
-   num_layer = len(model.layers)
+    num_layer = len(model.layers)
     
     return model, num_layer
 
- if name == 'main':
+   if name == 'main':
 
  #change detail here
    
@@ -219,7 +219,8 @@ def discriminator_model(optimizer, loss, metrics, num_sample):
     
     https://github.com/gavin-keli/Defend_Attacks_on_Voice_Auth#defend_attacks_on_voice_auth
     
- 4.The result of changing and improving the code
+     
+4. The result of changing and improving the code
     
     As described in the project process, existing audio adversarial attacks allow an adversary to capture the user's entire audio input and also create adversarial disruptions. To overcome these attacks, a new model was presented, in which we actually designed a kind of protection against sound attacks and implemented it.
     
