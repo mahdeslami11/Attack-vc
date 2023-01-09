@@ -66,6 +66,10 @@ In this project we are trying to report the hostile attack on audio conversion. 
 
 2. Explanation of innovation in code improvement
 
+The available audio adversarial attacks allow the adversary to have all of the user's audio input and also grant a sufficient time budget to create adversarial disturbances. However, these ideal assumptions make existing audio adversarial attacks in practice untimely (eg, broadcasting imperceptible adversarial disturbances along with user stream input). To overcome these limitations, in this section we propose a fast acoustic adversarial perturbation generator (FAPG), which uses a generative model to generate adversarial perturbations for the audio input in a forward pass, thereby greatly improving the perturbation generation speed. forgives. . Built on top of FAPG, we further propose the Universal Acoustic Adversarial Perturbation Generator (UAPG), a scheme that generates a global adversarial perturbation that can be applied to arbitrary benign audio input, causing misclassification. . Extensive experiments show that our proposed FAPG can achieve 167× speedup compared to advanced acoustic adversarial attack methods. Also, our proposed UAPG can generate global adversarial chaos, which provides much better attack performance than state-of-the-art solutions. In this work, we propose a fast and global adversarial attack on speech order recognition. By exploiting Wave-U-Net and class feature embedding maps, our proposed FAPG can target a fast adversarial audio attack at each spoken command in one pass of feedforward propagation, leading to adversarial jamming. Speed increase of more than 167x compared to advanced solutions. Furthermore, built on top of FAPG, our proposed UAPG is capable of generating global adversarial perturbation that can be applied to arbitrary benign audio input. Extensive experiments demonstrate the effectiveness and robustness of the proposed FAPG and UAPG and enable a real-time attack against speech command recognition systems.
+
+
+
 
 
 
