@@ -238,6 +238,14 @@ Digital signal processing course
 
 Supervisor: Dr. Mahdi Eslami
 
+7. The article file has been updated
+
+https://drive.google.com/drive/folders/1e2NkLtJ1hx8ve4vCaUCYvzRLEk1obBmW?usp=share_link
+
+8. Explanation videos about project code and articles
+
+
+
 
    
 
