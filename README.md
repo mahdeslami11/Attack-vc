@@ -185,7 +185,7 @@ def discriminator_model(optimizer, loss, metrics, num_sample):
     
     return model, num_layer
 
-if name == 'main':
+ if name == 'main':
 
  #change detail here
    
@@ -219,16 +219,16 @@ if name == 'main':
     
     https://github.com/gavin-keli/Defend_Attacks_on_Voice_Auth#defend_attacks_on_voice_auth
     
-    4.The result of changing and improving the code
+ 4.The result of changing and improving the code
     
     As described in the project process, existing audio adversarial attacks allow an adversary to capture the user's entire audio input and also create adversarial disruptions. To overcome these attacks, a new model was presented, in which we actually designed a kind of protection against sound attacks and implemented it.
     
     
-    5. Reference to the main project link
+ 5. Reference to the main project link
     
     https://github.com/cyhuang-tw/attack-vc
     
-    6. Student introduction
+ 6. Student introduction
     
    I am mohadese shabani,a master's student in bioelectrical medical engineering at South Tehran University
 
@@ -243,6 +243,25 @@ Supervisor: Dr. Mahdi Eslami
 https://drive.google.com/drive/folders/1e2NkLtJ1hx8ve4vCaUCYvzRLEk1obBmW?usp=share_link
 
 8. Explanation videos about project code and articles
+
+Article explanation video:
+
+https://drive.google.com/file/d/1kFIu_tX52fBKTXYQbm9qIMch34GhelAD/view?usp=drivesdk
+
+Project explanation video:
+
+https://drive.google.com/file/d/1404rrkHZX4e0g6jrrtzBu57c2Kqb7qxO/view?usp=drivesdk
+
+Full explanation video of the article:
+
+https://drive.google.com/file/d/1hp58LY-U0Ifqk0TCl6Lg8SPKd_PeFbia/view?usp=sharing
+
+full description of the source codes of the project:
+
+https://drive.google.com/file/d/1va5W_GpgKU1rCI9e529VcHD1-NbrB3jU/view?usp=share_link
+
+
+
 
 
 
